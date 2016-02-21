@@ -21,7 +21,7 @@ import com.epam.task10.model.Person;
  * 
  */
 public class PersonFileDao extends DataManager {
-	private final Logger log = Logger.getLogger(PersonFileDao.class);
+	private final Logger log = Logger.getLogger(PersonFileDao.class); 
 	private final static String FILE_NAME = "C:\\TMP\\persons.txt";
 	private final static String WRITE_PERSON_MSG = "Person has just been written to file.";
 	private final static String READ_PERSONS_MSG = "Persons were sucsesfully readed.";

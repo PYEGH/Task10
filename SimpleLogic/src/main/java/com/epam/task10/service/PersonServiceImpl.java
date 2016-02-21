@@ -10,7 +10,7 @@ public class PersonServiceImpl implements PersonService {
 	final private DataManager dm = new PersonFileDao();
 
 	public List<Person> getPerson() {
-		return dm.readPerson();
+		return dm.readPerson(); 
 	}
 	
 	public String getPersonListAsText(){

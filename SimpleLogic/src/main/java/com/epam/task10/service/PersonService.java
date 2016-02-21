@@ -8,5 +8,5 @@ public interface PersonService {
 
 	List<Person> getPerson();
 
-	String getPersonListAsText();
+	String getPersonListAsText(); 
 }

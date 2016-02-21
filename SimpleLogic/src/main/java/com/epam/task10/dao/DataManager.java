@@ -6,7 +6,7 @@ import com.epam.task10.model.Person;
 
 
 public abstract class DataManager {
-	/**
+	/** 
 	 * Writes Person.
 	 * @param person
 	 */
